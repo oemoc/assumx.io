@@ -1,0 +1,305 @@
+
+
+.bg1 {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    left: 0%;
+    top: 0%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+
+
+.main_name {
+    font-family: Impact, Haettenschweiler, 
+    'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    border: pink 5px solid;
+    border-radius: 15px;
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 15px black, 
+    inset 0px 0px 10px black;
+    backdrop-filter: blur(4px);
+    margin-bottom: 1vw;
+}
+
+.bio {
+    font-family: Impact, 
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 49%;
+    max-width: 49%;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    border: pink 5px solid;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 15px, 
+    inset black 0px 0px 10px;
+    backdrop-filter: blur(4px);
+}
+
+.bio h1 {
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.bio p {
+    padding: 5px;
+    padding-top: 0px;
+}
+
+.first {
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 1vw;
+}
+
+.contacts {
+    display: flex;             
+    flex-direction: column;    
+    justify-content: flex-start;  
+    align-items: center;
+    font-family: Impact, 
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 49%;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    border: pink 5px solid;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 15px, 
+    inset black 0px 0px 10px;
+    backdrop-filter: blur(4px);
+}
+
+.contacts a {
+    color: white;
+    padding: 0px;
+    padding-bottom: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.contacts h1 {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.contacts p {
+   font-size: 0px;
+   margin-bottom: 10px;
+}
+
+.second {
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 1vw;
+}
+
+.devices {
+    font-family: Impact, 
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 33%;
+    max-width: 33%;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    border: pink 5px solid;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 15px, 
+    inset black 0px 0px 10px;
+    backdrop-filter: blur(4px);
+}
+
+.devices p {
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.pc {
+    font-family: Impact, 
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 33%;
+    max-width: 33%;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    border: pink 5px solid;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 15px, 
+    inset black 0px 0px 10px;
+    backdrop-filter: blur(4px);
+}
+
+.pc p {
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.phones {
+    font-family: Impact, 
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 33%;
+    max-width: 33%;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    border: pink 5px solid;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 15px, 
+    inset black 0px 0px 10px;
+    backdrop-filter: blur(4px);
+}
+
+.third {
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 1vw;
+}
+
+.progr {
+    font-family: Impact, 
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 49%;
+    max-width: 49%;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    border: pink 5px solid;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 15px, 
+    inset black 0px 0px 10px;
+    backdrop-filter: blur(4px);
+}
+
+.ship {
+    font-family: Impact, 
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 49%;
+    max-width: 49%;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    border: pink 5px solid;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 15px, 
+    inset black 0px 0px 10px;
+    backdrop-filter: blur(4px);
+}
+
+.ship p {
+    padding: 7px;
+    padding-top: 0px;
+}
+
+.notes-container {
+    backdrop-filter: blur(4px);
+    border: pink 5px solid;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: black 0px 0px 15px, 
+    inset black 0px 0px 10px;
+    /* Жесткая фиксация на всю ширину с учетом рамок */
+    width: 100%;
+    box-sizing: border-box; 
+    
+    /* Сброс лишних внешних отступов */
+    margin: 0; 
+}
+
+.notes-container h1 {
+    font-family: Impact, Haettenschweiler, 
+    'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: black 0px 0px 10px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 150px;
+    padding: 10px;
+    border: 3px solid pink;
+    border-radius: 15px;
+    resize: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background: white;
+    opacity: 0.7;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: darkorchid;
+}
+
+#notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.note-item {
+    background: white;
+    opacity: 0.7;
+    border-left: 4px solid pink;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    /* Свойства для правильного переноса длинных слов */
+    word-wrap: break-word;       /* Стандартный перенос длинных слов */
+    overflow-wrap: break-word;   /* Современный аналог word-wrap */
+    hyphens: auto;               /* Автоматический перенос по слогам с дефисом */
+    -webkit-hyphens: auto;       /* Поддержка для Safari */
+    -ms-hyphens: auto; 
+    
+}
+
+.note-item span {
+    max-width: 90%;
+}
+
+.delete-single-btn {
+    background: none;
+    color: pink;
+    border: none;
+    padding: 0 5px;
+    margin: 0;
+    width: auto;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.delete-single-btn:hover {
+    background: none;
+    color: pink;
+}
